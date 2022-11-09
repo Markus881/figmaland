@@ -1,0 +1,53 @@
+.section1 {
+	background-image: url(../../../img/section_1/bg-section.png);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.header {
+	padding: 50px 0 110px;
+		&__item:not(:last-child) {
+			margin: 0 41px 0 0;
+		}
+}
+.link:not(:last-child) {
+	margin: 0 32px 0 0;
+}
+.head-section {
+
+	&__title {
+		font-family: 'Graphik';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 74px;
+		line-height: 84px;
+		letter-spacing: 0.2px;
+		max-width: 672px;
+		display: inline-block;
+		margin: 0 0 27px 0;
+	}
+	&__text {
+		font-size: 28px;
+		line-height: 40px;
+		max-width: 766px;
+		display: inline-block;
+		margin: 0 0 90px 0;
+	}
+	&__button{
+		
+		&--btn {
+			font-family: 'Graphik';
+			font-style: normal;
+			font-weight: 700;
+			margin: 0 0 243px 0;
+			padding: 16px 0px;
+			width: 236px;
+			height: 52px;
+			background: #2091F9;
+			border-radius: 35px;
+			font-size: 20px;
+			line-height: 20px;
+		}
+	}
+}

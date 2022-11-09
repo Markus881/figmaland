@@ -1,0 +1,41 @@
+.fast {
+    padding: 226px 0;
+	color: #374754;
+}
+.block {
+
+		&__left {
+			margin: 0 50px 0 0;
+
+			&-title {
+				max-width: 335px;
+				font-weight: 400;				
+				font-size: 48px;
+				line-height: 55px;
+				letter-spacing: 0.2px;
+				padding: 0 0 27px 0;
+			}
+
+			&-text {
+				max-width: 532px;
+				font-size: 28px;
+				line-height: 40px;
+				letter-spacing: 0.2px;
+				padding: 0 0 86px 0;
+				
+			}
+
+			&-btn {				
+				width: 236px;
+				height: 60px;
+				background: #2091F9;
+				border-radius: 35px;
+				font-family: 'Graphik';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 20px;
+				line-height: 28px;
+				letter-spacing: 0.1px;
+			}
+		}
+}

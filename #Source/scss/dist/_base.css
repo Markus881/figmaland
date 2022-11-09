@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/Roboto/Roboto-Thin.woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../font/Roboto/Roboto-Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("../font/Graphik/Graphik-Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik-Regular";
+  src: url("../font/Graphik/Graphik-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: "Graphik-Regular";
+  font-weight: 400;
+  font-style: normal;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  color: #fff;
+  outline: none;
+  padding: 0;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
